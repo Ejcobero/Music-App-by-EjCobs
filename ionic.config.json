@@ -1,0 +1,7 @@
+{
+  "name": "Music App by EjCobs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
