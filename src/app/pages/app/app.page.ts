@@ -14,7 +14,7 @@ export class AppPage implements OnInit {
   constructor(private router: Router) { }
 
   benben() {
-    this.router.navigateByUrl('/app/benand-ben');
+    this.router.navigateByUrl('/app/benand-ben-music');
   }
 
   ngOnInit() {

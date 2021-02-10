@@ -38,8 +38,9 @@ export class BenandBenComponent implements OnInit {
 
   start(music: Music) {
     this.player = new Howl({
-      src: [this.playlists.path]
-    })
+      src: this.playlists[index].path
+    });
+    this.player.play();
   }
 
   togglePlayer(pause) {

@@ -1,3 +1,9 @@
-<p>
-  benand-ben works!
-</p>
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let playlist of playlists" (click)="start(playlist)">
+      <ion-label>
+        {{ playlist.name }}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
