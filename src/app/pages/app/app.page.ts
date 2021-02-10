@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
-
-type MainMusicMenu = {
-  title: string;
-  url: string;
-  index?: number;
-};
 
 @Component({
   selector: 'app-app',
@@ -14,44 +9,13 @@ type MainMusicMenu = {
 })
 export class AppPage implements OnInit {
 
-  public currentIndex = 0;
 
-  private _pages: MainMusicMenu[] = [
-    {
-      title: "BenandBen",
-      url: "/app/benand-ben",
-    },
-    {
-      title: "December Avenue",
-      url: "/app/december-avenue",
-    },
-    {
-      title: "Ed Sheeran",
-      url: "/app/ed-sheeran",
-    },
-    {
-      title: "I Belong to the Zoo",
-      url: "/app/ibelongtothe-zoo",
-    },
-    {
-      title: "Moira Della Torre",
-      url: "/app/moira-dela-torre",
-    },
-    {
-      title: "Olivia Rodrigo",
-      url: "/app/olivia-rodrigo",
-    },
-  ];
 
-  get pages() {
-    return this._pages.map((page, index) => {
-      page["index"] = index;
+  constructor(private router: Router) { }
 
-      return page;
-    });
+  benben() {
+    this.router.navigateByUrl('/app/benand-ben');
   }
-
-  constructor() { }
 
   ngOnInit() {
   }
