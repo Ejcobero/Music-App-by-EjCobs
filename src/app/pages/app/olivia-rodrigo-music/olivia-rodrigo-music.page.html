@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>OliviaRodrigoMusic</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Olivia Rodrigo</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="./assets/images/Olivia.jpg" />
+  <app-olivia-rodrigo></app-olivia-rodrigo>
 </ion-content>

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { EdSheeranMusicPageRoutingModule } from './ed-sheeran-music-routing.module';
 
 import { EdSheeranMusicPage } from './ed-sheeran-music.page';
+import { SharedModule } from 'src/app/module/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    EdSheeranMusicPageRoutingModule
+    EdSheeranMusicPageRoutingModule,
+    SharedModule,
   ],
   declarations: [EdSheeranMusicPage]
 })

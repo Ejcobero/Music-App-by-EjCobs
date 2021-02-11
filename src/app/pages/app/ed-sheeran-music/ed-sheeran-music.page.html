@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>EdSheeranMusic</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Ed Sheeran</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="./assets/images/EdSheeran.jpg" />
+  <app-ed-sheeran></app-ed-sheeran>
 </ion-content>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-moira-della-torre-music',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoiraDellaTorreMusicPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  back() {
+    this.router.navigate(['app']);
+    setTimeout(() => {
+      window.location.reload();
+    }, 500);
+  }
+
 
   ngOnInit() {
   }

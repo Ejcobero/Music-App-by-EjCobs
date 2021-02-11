@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>MoiraDellaTorreMusic</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Moira Della Torre</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="./assets/images/Moira.jpg" />
+  <app-moira-dela-torre></app-moira-dela-torre>
 </ion-content>

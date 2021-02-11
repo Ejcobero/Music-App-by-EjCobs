@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { MoiraDellaTorreMusicPageRoutingModule } from './moira-della-torre-music-routing.module';
 
 import { MoiraDellaTorreMusicPage } from './moira-della-torre-music.page';
+import { SharedModule } from 'src/app/module/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MoiraDellaTorreMusicPageRoutingModule
+    MoiraDellaTorreMusicPageRoutingModule,
+    SharedModule,
   ],
   declarations: [MoiraDellaTorreMusicPage]
 })

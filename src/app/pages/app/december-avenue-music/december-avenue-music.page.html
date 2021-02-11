@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>DecemberAvenueMusic</ion-title>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button (click)="back()">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Ben&Ben</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="./assets/images/BenBen.jpg" />
+  <app-december-avenue></app-december-avenue>
 </ion-content>

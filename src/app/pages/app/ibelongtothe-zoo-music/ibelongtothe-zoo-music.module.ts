@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { IBelongtotheZooMusicPageRoutingModule } from './ibelongtothe-zoo-music-routing.module';
 
 import { IBelongtotheZooMusicPage } from './ibelongtothe-zoo-music.page';
+import { SharedModule } from 'src/app/module/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IBelongtotheZooMusicPageRoutingModule
+    IBelongtotheZooMusicPageRoutingModule,
+    SharedModule,
   ],
   declarations: [IBelongtotheZooMusicPage]
 })

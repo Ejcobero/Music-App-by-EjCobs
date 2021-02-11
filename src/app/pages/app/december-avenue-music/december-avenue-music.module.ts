@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { DecemberAvenueMusicPageRoutingModule } from './december-avenue-music-routing.module';
 
 import { DecemberAvenueMusicPage } from './december-avenue-music.page';
+import { SharedModule } from 'src/app/module/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DecemberAvenueMusicPageRoutingModule
+    DecemberAvenueMusicPageRoutingModule,
+    SharedModule,
   ],
   declarations: [DecemberAvenueMusicPage]
 })
