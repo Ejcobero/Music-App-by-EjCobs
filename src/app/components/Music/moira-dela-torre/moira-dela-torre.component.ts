@@ -17,17 +17,25 @@ export class MoiraDelaTorreComponent implements OnInit {
 
   playlists: Music[] = [
     {
-      name: 'Araw-Araw',
-      path: './assets/mp3/Ben&Ben-Araw-Araw.webm'
+      name: 'Ikaw at Ako',
+      path: './assets/mp3/Moira-IkawatAko.webm'
     },
     {
-      name: 'Lifetime',
-      path: './assets/mp3/Ben&Ben-Lifetime.webm'
+      name: 'Patawad',
+      path: './assets/mp3/Moira-Patawad.webm'
     },
     {
-      name: 'Pagtingin',
-      path: './assets/mp3/Ben&Ben-Pagtingin.webm'
-    }
+      name: 'Patawad, Paalam',
+      path: './assets/mp3/Moira-PatawadPaalam.webm'
+    },
+    {
+      name: 'Paubaya',
+      path: './assets/mp3/Moira-PAUBAYA .webm'
+    },
+    {
+      name: 'Tagpuan',
+      path: './assets/mp3/Moira-Tagpuan.webm'
+    },
   ];
 
   activeMusic: Music = null;

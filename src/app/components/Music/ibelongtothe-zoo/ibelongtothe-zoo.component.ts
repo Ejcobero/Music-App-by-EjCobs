@@ -17,16 +17,24 @@ export class IBelongtotheZooComponent implements OnInit {
 
   playlists: Music[] = [
     {
-      name: 'Araw-Araw',
-      path: './assets/mp3/Ben&Ben-Araw-Araw.webm'
+      name: 'Balang Araw',
+      path: './assets/mp3/IBelongToTheZoo-BalangAraw.webm'
     },
     {
-      name: 'Lifetime',
-      path: './assets/mp3/Ben&Ben-Lifetime.webm'
+      name: 'Balita',
+      path: './assets/mp3/IBelongtotheZoo-Balita.webm'
     },
     {
-      name: 'Pagtingin',
-      path: './assets/mp3/Ben&Ben-Pagtingin.webm'
+      name: 'Ingat',
+      path: './assets/mp3/IBelongtotheZoo-Ingat.webm'
+    },
+    {
+      name: 'Kapit',
+      path: './assets/mp3/IBelongtotheZoo-Kapit.webm'
+    },
+    {
+      name: 'Sana',
+      path: './assets/mp3/IBelongtotheZoo-Sana.webm'
     }
   ];
 

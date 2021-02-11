@@ -17,16 +17,24 @@ export class EdSheeranComponent implements OnInit {
 
   playlists: Music[] = [
     {
-      name: 'Araw-Araw',
-      path: './assets/mp3/Ben&Ben-Araw-Araw.webm'
+      name: 'Happier',
+      path: './assets/mp3/EdSheeran-Happier.webm'
     },
     {
-      name: 'Lifetime',
-      path: './assets/mp3/Ben&Ben-Lifetime.webm'
+      name: 'Perfect',
+      path: './assets/mp3/EdSheeran-Perfect.webm'
     },
     {
-      name: 'Pagtingin',
-      path: './assets/mp3/Ben&Ben-Pagtingin.webm'
+      name: 'Shape of You',
+      path: './assets/mp3/EdSheeran-ShapeofYou.webm'
+    },
+    {
+      name: 'Thinking Out Loud',
+      path: './assets/mp3/EdSheeran-ThinkingOutLoud.webm'
+    },
+    {
+      name: 'Photograph',
+      path: './assets/mp3/EdSheeran-Photograph.webm'
     }
   ];
 

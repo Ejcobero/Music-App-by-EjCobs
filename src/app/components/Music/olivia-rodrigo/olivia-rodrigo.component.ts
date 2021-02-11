@@ -16,17 +16,25 @@ export interface Music  {
 export class OliviaRodrigoComponent implements OnInit {
   playlists: Music[] = [
     {
-      name: 'Araw-Araw',
-      path: './assets/mp3/Ben&Ben-Araw-Araw.webm'
+      name: 'All I Want',
+      path: './assets/mp3/OliviaRodrigo-AllIWant.webm'
     },
     {
-      name: 'Lifetime',
-      path: './assets/mp3/Ben&Ben-Lifetime.webm'
+      name: 'Drivers License',
+      path: './assets/mp3/OliviaRodrigo-driverslicense.webm'
     },
     {
-      name: 'Pagtingin',
-      path: './assets/mp3/Ben&Ben-Pagtingin.webm'
-    }
+      name: 'Out of the Old',
+      path: './assets/mp3/OliviaRodrigo-OutoftheOld.webm'
+    },
+    {
+      name: 'Start of Something New',
+      path: './assets/mp3/OliviaRodrigo-StartofSomethingNew.webm'
+    },
+    {
+      name: 'Wondering',
+      path: './assets/mp3/OliviaRodrigo-Wondering.webm'
+    },
   ];
 
   activeMusic: Music = null;

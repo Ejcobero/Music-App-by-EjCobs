@@ -16,16 +16,24 @@ export class DecemberAvenueComponent implements OnInit {
 
   playlists: Music[] = [
     {
-      name: 'Araw-Araw',
-      path: './assets/mp3/Ben&Ben-Araw-Araw.webm'
+      name: 'Bulong',
+      path: './assets/mp3/DecemberAvenue-Bulong.webm'
     },
     {
-      name: 'Lifetime',
-      path: './assets/mp3/Ben&Ben-Lifetime.webm'
+      name: 'Huling Sandali',
+      path: './assets/mp3/DecemberAvenue-Huling Sandali.webm'
     },
     {
-      name: 'Pagtingin',
-      path: './assets/mp3/Ben&Ben-Pagtingin.webm'
+      name: 'Kahit Di mo Alam',
+      path: './assets/mp3/DecemberAvenue-Kahit di mo alam.webm'
+    },
+    {
+      name: 'Kung Di Rin Lang Ikaw',
+      path: './assets/mp3/DecemberAvenue-KungDiRinLangIkaw.webm'
+    },
+    {
+      name: 'Sa Ngalan ng Pag-ibig',
+      path: './assets/mp3/DecemberAvenue-SaNgalanNgPag-ibig.webm'
     }
   ];
 

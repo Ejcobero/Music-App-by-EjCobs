@@ -38,12 +38,12 @@ export class AppPage implements OnInit {
     },
     {
       name: 'Moira Della Torre',
-      path: './assets/images/Moira.jpg',
+      path: './assets/images/moira.jpg',
       url: "/app/moira-della-torre-music"
     },
     {
       name: 'Olivia Rodrigo',
-      path: './assets/images/Olivia.jpg',
+      path: './assets/images/olivia.jpg',
       url: "/app/olivia-rodrigo-music"
     },
 

@@ -25,6 +25,14 @@ export class BenandBenComponent implements OnInit {
       path: './assets/mp3/Ben&Ben-Lifetime.webm'
     },
     {
+      name: 'Fall',
+      path: './assets/mp3/Ben&Ben-Fall.webm'
+    },
+    {
+      name: 'Masyado Pang Maaga',
+      path: './assets/mp3/Ben&Ben-Masyado Pang Maaga.webm'
+    },
+    {
       name: 'Pagtingin',
       path: './assets/mp3/Ben&Ben-Pagtingin.webm'
     }
